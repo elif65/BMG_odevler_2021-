@@ -1,0 +1,39 @@
+
+#“kisiler” isimli bir liste oluþturunuz
+kisilerList = []
+
+#En az 3 isim olmak üzere  bu listeye ekle
+print("kullanicidan üc isim alýnýz:")
+
+A = input("str(A gir:)")
+print(A)
+
+B = input("str(B gir:)")
+print(B)
+
+C = input("str(C gir:)")
+print(C)
+
+#Girdiðimiz A,B,C deðerlerini listeye tanýmla
+kisilerList = [A , B , C]
+print(kisilerList)
+
+#Liste uzunluðunu bulunuz
+print("liste uzunlugu:")
+print(len(kisilerList))
+
+#Listenin 2. elemanýný ekrana yazdýrýnýz
+print("Listenin 2. elemanýný ekrana yazdýrýnýz:")
+print(kisilerList[1])
+
+#Listenin son elemanýný listeden siliniz.
+print("son elemaný sil:")
+kisilerList.pop(2)
+print(kisilerList)
+
+#listeyi tekrar yazdýr
+print("listeyi yazdýr:")
+kisilerList.append(C)
+print(kisilerList)
+
+
